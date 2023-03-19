@@ -1,0 +1,35 @@
+<!--第四课内容 -->
+{% extends 'base/layout.html' %}
+
+<!--第四课内容 下面是正文-->
+{% block content %}
+    <div class="wrapper wrapper-content">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>系统简介</h5>
+                    </div>
+                    <div class="ibox-content">
+                        <div class="row">
+                            通过摄像头采集PCB图像，形态学操作进行焊点定位和去噪，
+                            深度学习网络模型进行合格判别，实现对输入PCB图像的打分，<br>
+                            标记PCB中那些是焊接不合格的焊点，并给出总焊点数和对应分数，
+                            帮助工人或教师进行PCB焊点合格筛选，降低误检率。
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <table><tr>
+        <td><img src=../static/img/2.jpg border=0 width="744" height="641"></td>
+        <td><img src=../static/img/3.jpg border=0 width="744" height="641"></td>
+        </tr></table>
+    </div>
+{% endblock %}
+
+
+
+
