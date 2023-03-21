@@ -2,8 +2,7 @@
 使用IDE：PyCharm
 操作系统: Mac
 Python版本：3.6
-我的邮箱:51263921@qq.com
-交流群: 372430835
+
 
 请注意，既然要学习开发，那么要注意以下几个问题。
 
@@ -13,7 +12,7 @@ Python版本：3.6
 
 3、简易使用一样的IDE工具，但是不强求。
 
-运行前先安装依赖:pip install -r requirement.txt 
+运行前先安装依赖:pip install -r requirements.txt 
 
 启动命令:python manage.py runserver
 
